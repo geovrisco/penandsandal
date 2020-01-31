@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="stylez.css"> 
+    <head>
+        <title>
+            fight the slime
+        </title>
+    </head>
+    <body class='body'>
+        
+            <audio id='bgm'>
+                <source src="asset/bgm.mp3" type="audio/mpeg">
+            </audio>
+        <audio id="myAudio">
+            <source src='asset/hit.wav' type="audio/wav"> 
+        </audio>
+        <audio id="vicory">
+            <source src='asset/victory.mp3' type="audio/mpeg"> 
+        </audio>
+        <audio id="healz">
+            <source src='asset/heal.wav' type="audio/wav"> 
+        </audio>
+       <div class='slime-container'>
+           <span id='slime-name'>Slime</span>
+           <br>
+           <span id='HP-indicator'>HP:</span>
+           <span id='slimeHp'>1000</span>
+           <br>
+            <img id='stance' src='asset/greenSlime.gif'>
+            <br>
+            <span id='HP-indicator'>HP:</span>
+           <span id='playerHP'>1000</span>
+           <br>
+       </div>
+       <div class='battle-log' id='logs'>
+           <p id='pLogs'></p>
+       </div>
+
+       <div class='battle-menu'>
+           
+        <button id='btnAttack'>Attack!</button>
+        <button id='btnHeal'>Heal</button>
+        <button id='musix'>BGM!!</button>
+       </div>
+       <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

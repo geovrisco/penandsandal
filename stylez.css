@@ -1,0 +1,79 @@
+@font-face{
+    font-family:'pixels';
+    src: url('pxll.otf')
+}
+
+.body{
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    background:url("asset/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+    
+}
+
+.bodyfight{
+    position: relative;
+    left:30%;   
+    font-family:'pixels';
+    font-size: 20px;
+}
+.menu-go{
+    position: relative;
+    font-family: pixels;
+    
+   
+}
+.main-container{
+    align-items: center;
+    position: relative;
+    left: 50%;
+}
+.instruction-no{
+    position: relative;
+    text-align: center;
+    font-family:pixels;
+    font-size: 50px;
+    padding-right: 5px;
+    color: white;
+}
+.instructions-text{
+    position: relative;
+    align-items: center;
+    font-family:'pixels';
+    font-size:30px;
+    color: white;
+}
+.institle{
+    position: relative;
+    font-family: 'pixels';
+    font-size: 45px;
+    color: white;
+}
+.slime-container{
+    font-family: 'pixels';
+    font-size: 30px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.battle-log{
+    font-family: 'pixels';
+    font-size: 30px;
+    color: white;
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+.battle-menu{
+    font-family: 'pixels';
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.tr{
+    background-color:black;
+}
